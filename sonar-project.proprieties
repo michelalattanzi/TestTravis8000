@@ -1,0 +1,33 @@
+sonar.projectKey=michelalattanzi_TestTravis8000
+sonar.projectName=TestTravis8000
+
+# =====================================================
+#   Meta-data for the project
+# =====================================================
+
+sonar.links.homepage=https://github.com/michelalattanzi/TestTravis8000
+sonar.links.ci=https://travis-ci.org/michelalattanzi/TestTravis8000
+sonar.links.scm=https://github.com/michelalattanzi/TestTravis8000
+sonar.links.issue=https://github.com/michelalattanzi/TestTravis8000/issues
+
+
+# =====================================================
+#   Properties that will be shared amongst all modules
+# =====================================================
+
+sonar.host.url=https://sonarcloud.io
+sonar.organization=michelalattanzi
+sonar.login=55276d38f158ba4151cdf386ab71b62360cd9a06
+sonar.sources=src
+sonar.language=java
+
+
+
+# =====================================================
+#   Java config
+# =====================================================
+sonar.java.source=1.8
+sonar.java.binaries=.
+
+# Debug
+sonar.verbose=true
